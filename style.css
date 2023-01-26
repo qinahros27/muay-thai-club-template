@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+main {
+    background-color: red;
+    background-size: cover;
+    color: white;
+    
+}
+
+.header,footer {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.header {
+    position: fixed;
+}
+.navigation {
+    height: 5rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+ 
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+.welcome {
+    width: 100%;
+    display: inline-flex;
+    height: 33rem;
+    align-items: center;
+    justify-content:center;
+}
+
+.about-sentence {
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.about-sentence h2 {
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    display:inline-flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.image img{
+    width: 17.5rem;
+    height: 17.5rem;
+}
+
+.Muay-Thai {
+    background-color: black;
+    background-size:cover;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Muay-Thai h3 {
+    font-size: 1rem;
+}
+
+.quote {
+    margin-top: 3rem;
+    text-align: center;
+   
+}
+
+.quote img {
+    margin-top: 2rem;
+}
+footer {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1120px) {
+    html {
+        font-size: 14px;
+    }
+    
+    .main {
+        width: 100%;
+    }
+    .welcome {
+        text-align: center;
+    } 
+
+    .about-sentence {
+        margin-top:1rem;
+    }
+
+    .about-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img img {
+        margin-bottom: 2rem;
+    }
+
+    .quote img {
+        width: 20rem;
+    }
+}
